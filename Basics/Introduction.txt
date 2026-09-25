@@ -1,0 +1,28 @@
+#What is Software?
+Software is collection of programs to help us to perform a task.
+
+#Types of Software?
+-Application Software
+-System Software
+-Programming Software
+
+#What is Software Testing?
+Software testing is a part of software develpoment process where product is verified and validated to ensure-
+1)Software or application is bug-free.
+2)Meets the customer requiremnt.
+3)Timely delivery within budget.
+4)Maintainable Product.
+
+#Why Software Testing is important?
+-Cost Effective 
+-Security 
+-Product Quality
+-Customer Statisfation.
+
+#Reason of Software Bugs
+1)Lack of communication between staclholders, develpoment and testing team.
+2)Frequent change in requiremnt/unclear requiremnt.
+3)Software Complexity.
+4)Programming erorr/source code error.
+5)Unskilled testing team.
+6)Time Pressure.
