@@ -1,0 +1,16 @@
+SDLC is also known as Application Develpoment Life Cycle.
+The software develpoment life cycle (SDLC) is a process used in software develpoment to plan, write, and modify software. It provides a framwork for a standard set of activities and deverables.
+Phases of SDLC - 
+1. Requirement Analysis
+2. Design
+3. Develpoment
+4. Testing
+5. Deployment 
+6. Maintenance
+
+SDLC Modles -
+1. Waterfall Modles
+2. Spiral Model 
+3. V-Model
+4. Agile Model 
+5. 
