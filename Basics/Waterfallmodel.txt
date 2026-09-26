@@ -5,7 +5,7 @@ Emphasises detailed documentation at every stage of development.
 Ensures quality through proper testing and verification in each phase.
 Involves thorough planning of scope, schedule, and deliverables.
 
-#Phases of Waterfall Model:
+#Phases of Waterfall Model: 
 Classical Waterfall Model divides the life cycle into a set of phases. The development process can be considered as a sequential flow in the waterfall. The different sequential phases of the classical waterfall model are as follows:
 
 1. Requirements Analysis and Specification
