@@ -1,0 +1,62 @@
+Waterfall Model is a traditional software development approach that follows a linear, step-by-step process where each phase is completed before moving to the next. Its features are:
+
+Follows a sequential approach where each phase is completed before the next begins.
+Emphasises detailed documentation at every stage of development.
+Ensures quality through proper testing and verification in each phase.
+Involves thorough planning of scope, schedule, and deliverables.
+
+#Phases of Waterfall Model:
+Classical Waterfall Model divides the life cycle into a set of phases. The development process can be considered as a sequential flow in the waterfall. The different sequential phases of the classical waterfall model are as follows:
+
+1. Requirements Analysis and Specification
+The first stage focuses on clearly understanding and documenting the customer’s needs.
+
+Requirement Gathering and Analysis: Customer requirements are collected and carefully examined to remove errors, confusion, and inconsistencies.
+Requirement Specification: The approved requirements are documented in the Software Requirement Specification (SRS), which serves as a formal agreement between the customer and the development team.
+2. Design
+The requirements specified in the SRS are converted into a system design that can be implemented in code.
+
+High-Level Design (HLD): Defines the overall system architecture, major components, and their interactions.
+Low-Level Design (LLD): Provides detailed design of each component, including logic and data flow, to guide developers during coding.
+All designs are documented in the Software Design Document (SDD).
+3. Development
+This phase involves converting the design into actual working software.
+
+Developers write source code based on the design documents.
+Suitable programming languages and tools are used.
+Unit testing is performed to verify that each module works correctly on its own.
+4. Testing and Deployment
+It is ensured that the integrated software functions correctly and is successfully delivered for real world use.
+
+Testing: After unit testing, software modules are integrated and integration testing is performed. Once integration is complete, system testing is carried out to verify the entire system.
+
+Alpha Testing: Performed by the development team.
+Beta Testing: Performed by selected end users.
+Acceptance Testing: Performed by the customer to approve the software.
+Deployment: After successful testing, the software is deployed to a live environment for end users. This phase includes environment setup, user training, and final checks to ensure smooth operation in real world conditions.
+
+5. Maintenance
+Maintenance ensures the software continues to function effectively after deployment.
+
+Corrective Maintenance: Fixes errors found after release.
+Perfective Maintenance: Enhances features based on user needs.
+Adaptive Maintenance: Adapts software to new environments.
+Preventive Maintenance: Prevents future issues through improvements.
+
+#Use Cases:
+Well-Defined Requirements: Requirements are clear, stable, and fully documented before development begins.
+Minimal Changes Expected: The project scope is unlikely to change during development.
+Small to Medium-Sized Projects: Suitable for projects with limited complexity and a clear development path.
+Predictable and Low Risk: Risks are known, manageable, and can be addressed early in the development cycle.
+Strict Regulatory Compliance: Ideal when detailed documentation and adherence to standards or regulations are mandatory.
+Client Prefers a Sequential Approach: Best when the client wants a step-by-step, linear development process.
+Limited Resources: Works well when resources are limited and need careful planning and allocation.
+
+#Advantages:
+1. Easy to understand and simple to follow.
+2. Follows a clear step-by-step development process.
+3. Well-defined stages reduce confusion.
+4. Clear milestones make progress tracking easier.
+5. Strong documentation throughout the project.
+6. Encourages disciplined development practices.
+7. Suitable for small projects with stable requirements.
