@@ -1,0 +1,71 @@
+The V-Model is a Software Development Life Cycle (SDLC) approach that integrates testing and validation at every stage. It follows a “V” shape structure, where each phase of development is directly connected to a corresponding testing phase, ensuring better quality and early detection of defects.
+
+#Phases of SDLC V-Model
+The V-Model, which includes the Verification and Validation it is a structural approach to software development. The following are the different Phases of the V-Model of the SDLC.
+
+1. Verification Phases
+This is where the process begins. The first step is to gather and understand the customer’s needs for the software. The goal is to define the scope of the project clearly to make sure everyone is on the same page.
+Static analysis is performed without executing the code.
+Verifies whether the product meets the specified requirements.
+There are several Verification phases in the V-Model:
+I. Business Requirement Analysis
+Gather and understand customer requirements.
+Prepare Acceptance Test Plans.
+II. System Design
+Create high-level and detailed system design.
+Plan System Testing.
+III. Architectural Design
+Define system architecture and module interactions.
+Prepare Integration Test Cases.
+IV. Module Design (LLD)
+Design internal details of each module.
+Prepare Unit Test Cases.
+V. Coding
+Develop the software based on the design.
+Follow coding standards and perform code reviews.
+
+2. Validation Phases
+It involves dynamic analysis techniques (functional, and non-functional), and testing done by executing code. Validation is the process of evaluating the software after the completion of the development phase to determine whether the software meets the customer's expectations and requirements. 
+I. Unit Testing: In Unit testing, unit test plans are executed to eliminate bugs in code or unit level.
+II. Integration testing: After completion of unit testing integration testing is performed. In integration testing, the modules are integrated and the system is tested.
+
+3. System Testing: System testing checks the whole application to see if everything works properly together.
+
+4. User Acceptance Testing (UAT): User Acceptance Testing (UAT) is performed in a user environment that resembles the production environment.
+
+Industrial Challenge
+Modern software projects are more complex and fast-paced, which makes strict requirement definition and early testing even more critical for the V-Model.
+
+Accurately define and refine user requirements.
+Design and build an application according to the authorized user requirements.
+Validate that the application they had built adhered to the authorized business requirements.
+Importance
+The V-Model is an important part of the SDLC, and the process is structured and sequential throughout all the testing.
+
+Early Defect Detection: Finds and fixes defects early, reducing cost and effort.
+Mapped Testing: Each development phase has a corresponding testing phase.
+Avoids Big Bang Testing: Testing is performed throughout development, not just at the end.
+Better Collaboration: Improves coordination between development and testing teams.
+Higher Quality: Ensures thorough verification and validation for reliable software.
+Principles
+Large to Small: In V-Model, testing is done in a hierarchical perspective. As each of these phases is completed the requirements, they are defining become more and more refined and detailed.
+Data/Process Integrity: Project design must integrate data and processes cohesively at every stage. Process elements must be identified at every requirement.
+Scalability: This principle states that the V-Model concept has the flexibility to accommodate any IT project irrespective of its size, complexity, or duration.
+Cross Referencing: A direct correlation between requirements and corresponding testing activity is known as cross-referencing.
+Applications
+Healthcare Systems: Used in hospital management systems, medical imaging software, and patient monitoring systems where software errors can affect patient safety.
+Banking and Financial Software: Applied in internet banking, ATM software, and payment processing systems that require high security and accuracy.
+Aerospace and Aviation: Used in flight control systems, navigation software, and aircraft monitoring systems where failures can have serious consequences.
+Automotive Industry: Used for developing software in Anti-lock Braking Systems (ABS), airbags, Advanced Driver Assistance Systems (ADAS), and engine control units.
+
+#Advantages
+-Follows a disciplined, phase-by-phase development process.
+-Best for small projects with clear and stable requirements.
+-Emphasizes early verification and validation to improve quality.
+-Provides a clear, structured process with strong focus on testing.
+
+#Disadvantages
+-Difficult to accommodate changing requirements.
+-Time-consuming due to extensive documentation and testing.
+-Not suitable for complex or high-risk projects.
+-Does not support iterative development.
