@@ -1,0 +1,72 @@
+The Agile Model is an iterative and incremental software development approach designed to deliver software quickly while adapting to changing customer requirements through continuous collaboration and feedback.
+
+-Adapts quickly to changing customer requirements.
+-Focuses on rapid and continuous software delivery.
+-Encourages continuous customer feedback and collaboration.
+-Reduces time and effort by eliminating unnecessary tasks.
+
+Agile SDLC Methods
+Some of the Agile Testing Methodologies are:
+
+>Test-Driven Development (TDD): Software development process relying on creating unit test cases before developing the actual code of the software. It is an iterative approach that combines 3 operations, programming, creation of unit tests, and refactoring.
+
+>Behavior Driven Development (BDD): Agile software testing that aims to document and develop the application around the user behavior a user expects to experience when interacting with the application. It encourages collaboration among the developer, quality experts, and customer representatives.
+
+>Exploratory Testing: The tester has the freedom to explore the code and create effective and efficient software. It helps to discover the unknown risks and explore each aspect of the software functionality. 
+
+>Acceptance Test-Driven Development (ATDD): Collaborative process where customer representatives, developers, and testers come together to discuss the requirements, and potential pitfalls and thus reduce the chance of errors before coding begins. 
+Extreme Programming (XP): Customer-oriented methodology that helps to deliver a good quality product that meets customer expectations and requirements.
+
+>Session-Based Testing: It is a structured and time-based approach that involves the progress of exploratory testing in multiple sessions. This involves uninterrupted testing sessions that are time-boxed with a duration varying from 45 to 90 minutes. During the session, the tester creates a document called a charter document that includes various information about their testing.
+
+>Dynamic Software Development Method (DSDM): Agile project delivery framework that provides a framework for building and maintaining systems. It can be used by users, developers, and testers.
+
+>Crystal Methodologies: Focuses on people and their interactions when working on the project instead of processes and tools. The suitability of the crystal method depends on three dimensions, team size, criticality, and priority of the project.
+
+#Principles of the Agile Model
+There are 12 Agile Principles mentioned in the Agile Manifesto. Agile principles are guidelines for flexible and efficient software development. 
+
+1. Our highest priority is to satisfy the client through early and continuous delivery of valuable computer software.
+2. Welcome dynamic necessities, even late in development. Agile Processes harness modification for the customer’s competitive advantage.
+3. Deliver operating computer software often, from a pair of weeks to a couple of months, with a preference to the shorter timescale.
+4. Business individuals and developers should work along daily throughout the project.
+5. The build comes around actuated people. offer them the setting and support they have, and trust them to urge the task done.
+6. the foremost economical and effective methodology of conveyancing info to and among a development team is face-to-face speech.
+7. Working with computer software is the primary life of progress.
+8. Agile processes promote property development. The sponsors, developers, and users will be able to maintain a relentless pace indefinitely.
+9. Continuous attention to technical excellence and smart style enhances nimbleness.
+10. Simplicity—the art of maximizing the number of work not done—is essential.
+11. the most effective architectures, necessities, and styles emerge from self–organizing groups.
+12. At regular intervals, the team reflects on a way to become simpler, then tunes and adjusts its behavior consequently.
+
+#Characteristics
+The Agile process is all about being flexible, working together, and focusing on delivering real value to customers.
+
+1. Agile processes must be adaptable to technical and environmental changes. That means if any technological changes occur, then the agile process must accommodate them.
+2. The customer feedback must be used to create the next increment of the process.
+3. The software increment must be delivered in a short span of time.
+4. It must be iterative so that each increment can be evaluated regularly.
+
+#When To Use the Agile Model?
+The Agile model works really well for certain types of projects. Here’s when Use the Agile Model:
+
+1. When new changes need to be implemented. The flexibility that Agile provides for change is very important.
+2. New changes can be implemented at a very low cost due to the frequency of new increments.
+3. Implementing a new feature requires developers to lose only a few days or even just hours of work to get it back and implemented.
+4. In the Agile model, unlike the Waterfall model, very limited planning is required to start a project.
+5. Agile believes that the needs of end users are always changing in the dynamic business and IT world.
+6. Changes can be discussed and features can be redesigned or removed based on feedback.
+
+
+#Advantages
+1. Delivers software faster through iterative development.
+2. Encourages strong team collaboration and communication.
+3. Allows continuous customer feedback and requirement changes.
+4. Produces high-quality software with fewer errors.
+
+#Disadvantages
+1. Requires continuous customer involvement; unclear requirements can cause issues.
+2. Can be difficult to manage in large projects without effective coordination or experienced teams.
+3. Needs experienced developers to manage frequent changes.
+4. Limited documentation makes maintenance more difficult.
+
