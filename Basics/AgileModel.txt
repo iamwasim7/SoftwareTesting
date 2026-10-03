@@ -68,5 +68,5 @@ The Agile model works really well for certain types of projects. Here’s when U
 1. Requires continuous customer involvement; unclear requirements can cause issues.
 2. Can be difficult to manage in large projects without effective coordination or experienced teams.
 3. Needs experienced developers to manage frequent changes.
-4. Limited documentation makes maintenance more difficult.
+4. Limited documentation makes maintenance more difficult. 
 

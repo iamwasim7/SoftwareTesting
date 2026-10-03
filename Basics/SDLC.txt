@@ -13,4 +13,4 @@ SDLC Modles -
 2. Spiral Model 
 3. V-Model
 4. Agile Model 
-5. 
+5. Scrum Model
