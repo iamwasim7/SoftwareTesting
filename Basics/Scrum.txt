@@ -1,0 +1,29 @@
+Scrum is a widely used Agile framework for developing complex products, introduced by Ken Schwaber and Jeff Sutherland. It enables teams to self-organize, collaborate effectively, and deliver high-value products through an iterative and incremental approach, while adapting to changing requirements. Its key features are:
+
+#Lightweight and simple to understand framework
+#Emphasizes self-organization and teamwork
+#Promotes collaboration and continuous improvement
+#Supports iterative and incremental development
+
+
+#Key Components of the Scrum Lifecycle 
+Following points explain the key stages and components of the Scrum lifecycle as illustrated in the above diagram.
+
+-Sprint: A time-boxed period of one month or less during which a product increment is developed is known as a Sprint, and a new sprint begins immediately after the previous one ends.
+-Release: Usable product increment can be delivered based on requirements, which is referred to as a Release in Scrum.
+-Sprint Review: Completed work is presented to stakeholders for feedback and future improvements during the Sprint Review.
+-Sprint Retrospective: Continuous improvement in processes and team performance is achieved through the Sprint Retrospective, where the team reflects on the sprint.
+-Product Backlog: All features, enhancements, and requirements are organized and prioritized in the Product Backlog.
+-Sprint Backlog: Selected items from the Product Backlog, along with a plan to complete them during the sprint, make up the Sprint Backlog.
+
+#Advantage
+1. Fast-paced and cost-efficient development approach
+2. Breaks large projects into smaller, manageable parts (divide and conquer)
+3. Strong focus on customer satisfaction through continuous feedback
+4. Highly adaptive due to short and iterative sprints
+5. Improves product quality with regular reviews and feedback
+#Disadvantage
+1. Changes during a sprint are generally discouraged once it begins
+2. Not a fully defined methodology and may require integration with other practices(e.g., Extreme Programming(XP), Kanban, Dynamic Systems Development Method (DSDM)).
+3. Difficult to manage projects without clear requirements or vision
+4. Requires frequent meetings and active involvement, which can be time-consuming
