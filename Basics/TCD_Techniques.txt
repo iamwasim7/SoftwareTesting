@@ -1,35 +1,19 @@
-Types of Software Test Case Design Techniques
-The various types of test case design techniques are−
+1. What are Test Case Design Techniques?
+Definition: Test Case Design Techniques are methods used to create effective test cases to verify software functionality and identify defects.
+Simple meaning: They help us decide what to test, which inputs to use, and which conditions to check.
+For example, imagine a login page with a username and password. Instead of trying random inputs, we use design techniques to select meaningful test cases.
 
-#Requirement Based
-It is also known as the black box testing technique that validates the features of the software without considering its internal working. It consists of the procedures listed below −
+2. Types of Test Case Design Techniques
+There are three main categories:
 
-Boundary Value Analysis − In this methodology, the verification is done around the boundary values of the valid and invalid data sets. The behavior of the software at the edge of the equivalence partitions has a higher probability of finding errors.
+1. Black Box Testing Techniques
+Test without knowing the internal code.
+Examples: Equivalence Partitioning, Boundary Value Analysis, Decision Table Testing, State Transition Testing.
 
-Equivalence Partitioning − This methodology allows the testers to segregate input data into groups. It reduces the total count of tests without compromising the test coverage.
+2. White Box Testing Techniques
+Test based on the internal code and program logic.
+Examples: Statement Coverage, Branch Coverage, Condition Coverage, Path Coverage.
 
-Decision Table − This methodology allows building of test cases from the decision tables created using various combinations of input data and their outcomes which originate from different situations and use cases.
-
-State Transition Diagram − This methodology is used to test the change in the states of a software using different inputs. If the conditions under which the input are updated, then there are changes to the states of the software.
-
-Use Case Testing − This methodology is focussed on verifying the test scenarios involving the entire software.
-
-#Structure Based
-It is also known as the white box testing technique that validates the internal working of the software by the developers. It consists of the procedures−
-
-Statement Coverage Testing − This methodology validates every executable line in the program source code at least once.
-
-Decision Coverage Testing − This methodology tests all decision outcomes in the program.
-
-Condition Coverage Testing − This methodology primarily verifies all the conditions in the program source code.
-
-Multiple Condition Testing − This methodology is used to verify different circumstances to get a very good test coverage. It relies on multiple test scripts, hence requires more time for completion.
-
-Path Testing This methodology uses the control flow graph to calculate a group of linearly independent paths. Moreover, the cyclomatic complexity of the code is calculated to obtain the number of the linearly independent paths, and finally the test cases are built from those paths.
-
-#Experience Based
-It consists of the procedures−
-
-Error Guessing − This methodology is an informal testing where the testers use their knowledge, experience, expertise, and domain understanding to identify potential defects in the software. Those defects may not have been found by the formal test cases or by simply analyzing the requirements.
-
-Exploratory Testing − This methodology is an informal testing technique practiced on the software to determine bugs. It is an unsystematic approach.
+3. Experience-Based Testing Techniques
+Use tester experience and knowledge to identify potential defects.
+Examples: Error Guessing, Exploratory Testing, Checklist-Based Testing.
