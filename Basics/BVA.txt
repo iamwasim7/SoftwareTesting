@@ -1,0 +1,25 @@
+Definition: Boundary Value Analysis tests values at the edges of an input range because defects frequently occur at boundaries.
+
+A age feild, where accept the range is 18-60
+
+Test case	Input	Expected result
+TC01	       17	Reject
+TC02	       18	Accept
+TC03	       19	Accept
+TC04	       59	Accept
+TC05	       60	Accept
+TC06	       61	Reject
+
+The important boundary values are 17, 18, 19, 59, 60, and 61.
+
+Why do we use BVA?
+To identify defects involving minimum and maximum limits.
+
+Difference between EP and BVA
+Equivalence Partitioning	                                Boundary Value Analysis
+Divides data into groups.	                                Focuses on range edges.
+Selects representative values.	                            Selects values around boundaries.
+Example: 15, 30, 65.	                                    Example: 17, 18, 19, 59, 60, 61.
+Reduces tests by grouping inputs.	                        Finds errors around limits.
+
+Interview tip: EP tests representative values from groups; BVA tests values at and around boundaries.
