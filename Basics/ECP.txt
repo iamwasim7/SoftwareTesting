@@ -1,0 +1,24 @@
+#Equivalence Partitioning (EP)
+Definition: Equivalence Partitioning divides input data into groups where the values are expected to behave similarly. We select representative values from each group.
+Example: A form accepts age from 18 to 60, inclusive.
+Below 18
+Invalid group
+
+18–60
+Valid group
+
+Above 60
+Invalid group
+
+Representative test values: 15, 30, 65.
+
+Instead of testing every possible age, we test one representative from each equivalence partition.
+Test case	Input	Expected result
+TC01	    15	    Reject
+TC02	    30	    Accept
+TC03	    65	    Reject
+
+Why do we use EP?
+- Reduces the number of test cases.
+- Saves testing time.
+- Helps cover valid and invalid inputs efficiently.
