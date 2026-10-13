@@ -1,0 +1,39 @@
+#What is State Transition Testing?
+Definition: State Transition Testing is a black-box testing technique used to test how a system changes from one state to another when an event or action occurs.
+
+Simple meaning: We check how a system behaves when its status changes.
+For example:
+- A login system changes from Logged Out to Logged In.
+- An ATM card changes from Active to Blocked.
+- An order changes from Pending to Shipped.
+
+Example: Login system
+Suppose a website blocks an account after 3 consecutive incorrect password attempts.
+State 1: Account Active
+User can attempt to log in.
+
+Incorrect password × 3
+Event that triggers the change
+
+State 2: Account Blocked
+Login is blocked according to the system rules.
+
+The account changes its state because of an event: three consecutive incorrect password attempts.
+
+#State Transition test cases
+Test case	      Action	                                        Expected result
+TC01	          Enter the correct password	                    Login successful
+TC02	          Enter an incorrect password once	                Error message; account remains active
+TC03	          Enter an incorrect password twice	                Error message; account remains active
+TC04	          Enter an incorrect password three times	        Account becomes blocked
+TC05	          Try to log in after blocking	                    Login denied according to the blocking rule
+
+These test cases verify not just individual inputs, but also how the system changes state over a sequence of actions.
+
+When do we use State Transition Testing?
+- Login attempts and account locking
+- ATM card PIN attempts
+- Order tracking systems
+- Traffic lights
+- Subscription status changes
+- Workflow applications
