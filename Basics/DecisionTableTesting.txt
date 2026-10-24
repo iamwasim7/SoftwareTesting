@@ -1,0 +1,36 @@
+A Decision Table is a software testing technique used to represent combinations of conditions and their corresponding actions in a tabular format. It helps testers verify complex business logic by ensuring all possible scenarios are tested systematically.
+
+Organizes conditions, actions, and decision rules in a structured table.
+Ensures accurate and complete testing of multiple input combinations.
+
+Steps to Create a Decision Table
+Identify Conditions: Determine inputs affecting decisions.
+Define Condition Alternatives: List possible states for each condition.
+Define Actions: Identify the outcomes triggered by conditions.
+Map Rules: Create rows representing all combinations of conditions.
+Fill the Table: Assign corresponding actions to each combination.
+Simplify: Remove redundancies and resolve conflicts for clarity.
+
+Examples of Decision Tables in Software Testing
+
+Discount System: Offers discounts based on membership and purchase total.
+Is Member	Total > $100	10% Discount	5% Discount	No Discount
+Yes	        Yes	            Yes	            No	        No
+Yes	        No	            No	            Yes	        No
+No	        Yes	            No	            Yes	        No
+No	        No	            No	            No	        Yes
+
+
+#Use Cases of Decision Tables in Software Testing
+Validating Business Logic: Ensures all business rules are covered.
+Generating Test Cases: Creates exhaustive test scenarios.
+Verifying System Behavior: Confirms correct outcomes for all condition combinations.
+Automating Tests: Easily translated into automated scripts.
+Ensuring Regulatory Compliance: Maps conditions to compliance rules.
+
+#Advantages of Decision Tables
+Clear representation of logic for developers, testers, and stakeholders.
+Ensures thorough test coverage, including edge cases.
+Simplifies complex decision-making scenarios.
+Automation-friendly for consistent and repeatable tests.
+Enhances team communication and alignment.
