@@ -1,0 +1,19 @@
+Error Guessing is a software testing technique in which a tester predicts possible errors based on their experience, knowledge, and understanding of common mistakes.
+Instead of following fixed rules, the tester tries to guess where the application might fail.
+
+Example: A tester guesses that a login page might fail when the password field is empty or when a user enters incorrect credentials.
+
+Login page
+Suppose we are testing a login page with a username and password.
+
+Test Case ID	Test Scenario	                        Expected Result
+EG_001	        Enter an incorrect password	            Display an error message
+EG_002	        Leave the username empty	            Show a validation message
+EG_003	        Leave the password empty	            Show a validation message
+EG_004	        Leave both fields empty	                Prevent login and show validation
+EG_005	        Enter spaces in the username	        Reject invalid input or handle it correctly
+EG_006	        Enter very long input	                Handle it safely without crashing
+EG_007	        Click Login multiple times quickly	    Avoid duplicate or unexpected requests
+
+These test cases are based on errors a tester anticipates might occur.
+
