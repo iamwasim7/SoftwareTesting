@@ -1,0 +1,29 @@
+Software testing is performed at different levels to verify the quality, functionality, and reliability of a software application. Each testing level focuses on a specific stage of the software, from individual components to the complete system, helping identify defects before the software is released.
+
+1. Unit Testing
+Unit Testing is the first level of software testing in which individual units or components of an application are tested independently. It is usually performed by developers to verify that each unit works correctly before integration.
+
+Tests individual functions, methods, or classes in isolation.
+Detects defects early, reducing debugging time and development cost.
+Ensures each component behaves as expected.
+
+2. Integration Testing
+Integration Testing verifies the interaction and data flow between two or more integrated modules. It ensures that combined components communicate correctly and work together without interface issues.
+
+Tests communication between integrated modules.
+Identifies interface and data exchange defects.
+Ensures seamless interaction among software components.
+
+3. System Testing
+System Testing evaluates the complete and integrated software application to verify that it meets all specified functional and non-functional requirements. It is performed in an environment similar to production.
+
+Tests the complete application from end to end.
+Verifies functional and non-functional requirements.
+Ensures the software behaves correctly in real-world scenarios.
+
+4. Acceptance Testing
+Acceptance Testing is the final level of software testing, where customers or end users verify that the software meets business requirements and is ready for release. Successful completion indicates that the application is acceptable for production.
+
+Validates software against business and user requirements.
+Confirms the application meets customer expectations.
+Provides final approval before deployment.
