@@ -1,0 +1,24 @@
+Non-functional testing checks how well a software system performs rather than what functions it performs. It evaluates quality attributes such as performance, security, usability, reliability, and scalability to ensure the application works efficiently under real-world conditions. It helps improve overall software quality and user experience.
+
+-Validates quality attributes like performance, security, and usability.
+-Ensures the system works efficiently, reliably, and securely.
+-Helps improve user satisfaction and overall software quality.
+
+#Non-Functional Testing Types:
+The Non-Functional Testing Techniques and Types mentioned below:
+
+Performance Testing: Performance testing evaluates the speed, responsiveness, stability and scalability of an application. It helps identify performance bottlenecks, measure system behavior under different workloads and ensure the application can handle the expected number of users or transactions efficiently.
+
+Load Testing: Load testing determines how an application behaves when multiple users access it simultaneously. It measures system response time, throughput, and resource utilization under varying load conditions to ensure stable performance.
+
+Security Testing: Security testing ensures that applications and systems are protected against internal and external threats. It identifies vulnerabilities, security risks and weaknesses to prevent unauthorized access, data breaches and other security attacks.
+
+#Example: E-Commerce Application
+Non-functional testing in an e-commerce application includes:
+
+Performance Testing: Ensures product pages load quickly
+Load Testing: Checks system behavior during high traffic (e.g., sales or festivals)
+Stress Testing: Tests system under extreme user load
+Security Testing: Protects user data, payments, and transactions
+Usability Testing: Ensures easy product search, cart management, and checkout process
+
