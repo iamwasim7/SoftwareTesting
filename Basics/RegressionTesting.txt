@@ -1,0 +1,21 @@
+Regression Testing is a type of software testing performed to ensure that recent code changes do not negatively affect existing functionality. It helps maintain system stability after updates, bug fixes, or enhancements.
+
+-Re-executes previously passed test cases
+-Ensures new changes do not break existing features
+-Detects unintended side effects early
+-Improves software reliability and stability
+
+#Types of Regression Testing:
+
+1) Unit Regression-
+   Testing only the changed feature is called the Unit Regression Testing.
+
+2) Partial Regression-
+   It also known as regional regression. In this we test the modification along with the impact area or regions.
+
+3) Complate Regression-
+   Test the modification along with the reamining areas. Complate regression testing executes the entire regression test suit to validate all application functionality after major changes.
+
+Re-Testing:
+Testing the functionality or bug again to ensure that bug is fixed. If not fixed, defects need not be re-opened. If fixed, the defect closed. This is to ensure that the bugs of previous build is fixed or not.
+
