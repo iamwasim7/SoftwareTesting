@@ -1,0 +1,9 @@
+Ad Hoc Testing is an informal software testing technique performed without predefined test cases or documentation. It relies on the tester’s experience, intuition, and knowledge to find unexpected defects quickly.
+
+-No predefined test cases or test scripts are required.
+-Helps uncover hidden defects that structured testing may miss.
+-Depends on tester experience and application understanding.
+Example: A tester performs random actions such as switching screens, rotating the device, and using a low network connection, which may reveal crashes, UI glitches, or performance issues.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+Monkey testing is a type of software testing in which the tester tests the application or software by providing some random inputs and checking the behavior of the application or the software. It is also observed by seeing whether the application or software crashes on a given input or not. Monkey testing is usually implemented as random and automated unit testing.
