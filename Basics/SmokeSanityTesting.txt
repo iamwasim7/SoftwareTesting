@@ -1,0 +1,25 @@
+Smoke Testing is a software testing technique used to verify whether the critical functionalities of a new build are working correctly. It ensures the build is stable enough for further detailed testing.
+
+-Verifies the application's core functionalities.
+-Ensures the build is stable for further testing.
+-Helps identify major defects at an early stage.
+
+Characteristics of Smoke Testing
+The following are the main characteristics of smoke testing:
+
+-It tests only the main features, not the full application in detail.
+-It focuses on essential functions like login, navigation, or core workflows.
+-It is usually done whenever a new build is released for testing.
+-It takes less time and helps quickly decide whether the build is stable.
+-Smoke testing may be done manually or through automation tools.
+-Its main purpose is to confirm the build is ready for further detailed testing.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Sanity testing is a quick, focused testing process performed after receiving a new build with minor changes or bug fixes. It verifies whether the specific functionality works correctly without testing the whole application.
+
+-Performed after small changes or bug fixes in the code.
+-Focuses only on specific affected modules, not the entire system.
+-Ensures that the bug fix works and no major issues are introduced.
+
+Example: After fixing a login bug, the tester checks only the login functionality in the new build. If login works with valid credentials, the sanity test is passed; otherwise, the defect is reported again
