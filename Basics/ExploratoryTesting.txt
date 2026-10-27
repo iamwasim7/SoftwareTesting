@@ -1,0 +1,24 @@
+Exploratory Testing is a type of software testing where testers actively explore the application without predefined test cases. It combines learning, test design, and execution at the same time. This approach is useful for quickly identifying defects and understanding system behavior.
+
+-No predefined test cases; testing is based on tester’s knowledge and intuition.
+-Helps in discovering unexpected bugs and edge cases.
+-Flexible and suitable for early-stage or rapidly changing applications.
+
+#Techniques Used in Exploratory Testing
+Exploratory testing uses various techniques to help testers effectively explore the application, find defects, and improve test coverage.
+
+Error Guessing: Involves predicting possible defects based on tester’s experience and intuition, without any formal rules, focusing on common problem areas.
+Boundary Value Analysis (BVA): Involves testing values at the boundaries of input ranges where defects are most likely to occur.
+Equivalence Partitioning: Involves dividing input data into valid and invalid groups and testing one representative value from each group.
+Checklist-Based Testing: Involves using a predefined checklist to ensure all important functionalities are covered during testing.
+Mind Mapping: Involves creating a visual map of features and test ideas to organize testing and improve coverage.
+Session-Based Testing: Involves testing within a fixed time session with defined goals and scope, and documenting the results.
+Pair Testing: Involves two testers working together where one performs testing and the other observes, analyzes, and records defects.
+
+#Best Practices for Exploratory Testing
+Encourages structured exploration using charters, time-boxing, and documentation to improve effectiveness and defect discovery.
+
+Understand the customer: Approach the software from different user perspectives and expectations.
+Clear testing objectives: Know what to test and why; maintain focused notes during testing.
+Proper documentation: Record test coverage, risks, execution logs, and issues systematically.
+Track issues: Keep a clear record of questions and defects discovered during testing.
