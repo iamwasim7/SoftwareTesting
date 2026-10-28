@@ -1,0 +1,24 @@
+Positive testing, also known as "happy path testing," involves checking if the software works as expected with valid inputs. The main goal is to make sure that the software functions correctly when everything is in the right place.
+
+In positive testing, you:
+
+-Test the system with valid data, as defined by the requirements.
+-Check if the application works properly according to the functional specifications.
+-Verify if the software follows the intended business logic.
+
+Example- 
+Online Assessment Platform
+Situation: Submitting exam answers online.
+Positive Test Case: Sign in as a student, complete the test questions with appropriate responses, and verify that the answers were submitted successfully and error-free.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Negative Testing is performed to ensure that the software application or the product does not fail or behave abnormally whenever a user gives any unintentional or unexpected input to the software application. The purpose of negative testing is to check how the software behaves when some unexpected input is given to the software. This testing is performed to break the system and verify the response of the application during unwanted inputs.
+
+-n negative testing, the system is authorized to provide invalid data as input.
+-It makes sure that the product does not fail when an unpredicted input is given.
+-It is also known as failure testing or error path testing.
+-It spots the negative characteristics of the application by designing test cases.
+
+Example-
+Login page: Blank user ID with a blank password, correct user ID with an incorrect password, incorrect user ID with an incorrect password, incorrect user ID with the correct password, and so on.
