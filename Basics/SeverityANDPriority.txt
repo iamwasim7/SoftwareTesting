@@ -1,0 +1,22 @@
+Severity and Priority help software teams evaluate defects and decide the most effective approach for fixing them. These concepts support efficient defect management, improve release planning, and ensure that critical issues are resolved at the right time.
+
+Helps classify defects based on their impact and urgency.
+Supports better defect management and release planning.
+Ensures critical issues are addressed before less important ones.
+Severity
+Severity defines the impact of a defect on the application's functionality. The greater the impact on the system, the higher the severity. It is typically assigned by the QA or Test Engineer.
+
+Types of Severity
+Critical: System crash or complete failure; further testing cannot continue.
+Major: A major feature fails, but the rest of the application remains usable.
+Medium: A functional issue with a temporary workaround available.
+Low: A minor issue with little or no impact on functionality.
+
+Priority
+Priority defines the urgency of fixing a defect. It determines the order in which defects should be resolved and is usually assigned by the Project Manager, Product Owner, or Business Team.
+
+Types of Priority
+High: Must be fixed immediately because it significantly affects business functionality or user experience.
+Medium: Should be fixed during the normal development cycle.
+Low: Can be fixed in a future release with minimal business impact.
+
