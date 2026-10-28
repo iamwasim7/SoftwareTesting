@@ -1,0 +1,47 @@
+Test Closure is the final phase of the Software Testing Life Cycle (STLC) in which all testing activities are formally completed, reviewed, and documented. It ensures that testing is properly concluded, defects are evaluated, and final reports are prepared before the software is released.
+
+Marks the completion of all planned testing activities
+Confirms the status of defects and overall product quality
+Helps prepare final reports and lessons learned for future projects
+Need for Test Closure
+Test Closure is essential because it formally completes the testing process and ensures that all objectives have been achieved. It helps the team evaluate testing results, review defect status, and preserve important project records for future use.
+
+Confirms that all planned test cases and testing tasks have been completed
+Verifies that critical defects are resolved or properly documented
+Supports release decisions by providing a clear quality status of the product
+Helps improve future testing by recording lessons learned and challenges faced
+Maintains proper documentation such as reports, defect logs, and test artifacts
+
+#Test Closure Phase
+
+Phase 1: Check Exit Criteria
+This phase ensures that all planned testing activities are completed and the defined quality goals are achieved before closure.
+
+Verify that all test cases have been executed successfully
+Ensure critical defects are fixed or properly documented
+Phase 2: Defect Analysis
+In this phase, all identified defects are reviewed to understand their severity, impact, and root cause. It helps in assessing product quality and improving future testing processes.
+
+Analyze defects based on severity, priority, and status
+Review open, closed, and deferred defects for final decisions
+Phase 3: Archive Test Artifacts
+All testing-related documents and records are stored properly for future reference, audits, and reuse in upcoming testing cycles.
+
+Save test cases, scripts, logs, and reports
+Maintain proper documentation for compliance and knowledge reuse
+Phase 4: Measure Metrics
+This phase focuses on evaluating testing performance through measurable indicators that reflect product quality and testing efficiency.
+
+Calculate metrics such as test coverage, pass/fail ratio, and defect density
+Analyze results to measure testing effectiveness
+Phase 5: Prepare Closure Report
+A final report is prepared to summarize the complete testing process, outcomes, risks, and key observations for stakeholders.
+
+Document results, risks, and deviations from the test plan
+Include lessons learned and suggestions for improvement
+Phase 6: Sign-off and Release
+In this phase, the testing work is formally closed after approval, and the product is considered ready for release or deployment.
+
+Obtain sign-off from stakeholders or clients
+Officially close testing and proceed to release
+
