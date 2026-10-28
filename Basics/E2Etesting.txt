@@ -1,0 +1,8 @@
+End-to-End (E2E) Testing is a software testing technique used to verify the complete workflow of an application from start to finish. It ensures that all integrated components, including the user interface, backend services, databases, APIs, and external systems, work together correctly.
+
+-Validates complete user workflows from the user’s perspective.
+-Ensures proper communication between different application components.
+-Helps verify real business processes such as login, payment, and order placement
+
+Example: Testing an e-commerce website by verifying the complete user journey from login, product search, adding items to the cart, payment, and order confirmation.
+
