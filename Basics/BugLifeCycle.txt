@@ -1,0 +1,55 @@
+In the Software Development Process, the Defect Life Cycle is the life cycle of a defect or bug that goes through a specific set of states in its entire life. Mainly bug life cycle refers to its entire state, starting from a new defect detected to the closing off of that defect by the tester. Alternatively, it is also called a Bug Life Cycle.
+
+Objectives:
+
+The journey of the Defect Cycle varies from organization to organization and also from project to project because development procedures and platforms as well as testing methods and testing tools, differ depending upon organizations and projects. 
+The number of states that a defect goes through also varies depending on the different tools used and processes followed during the software testing.
+The objective of the defect lifecycle is to easily coordinate and communicate the current status of the defect and thus help to make the defect-fixing process efficient. 
+
+
+#Defect Lifecycle Process
+
+1. New
+When any new defect is identified by the tester, it falls in the 'New’ state. It is the first state of the Bug Life Cycle. The tester provides a proper Defect document to the Development team so that the development team can refer to Defect Document and can fix the bug accordingly.
+
+2. Assigned
+Defects that are in the status of 'New' will be approved and that newly identified defect is assigned to the development team for working on the defect and to resolve that. When the defect is assigned to the developer team the status of the bug changes to the 'Assigned' state.
+
+3. Open
+In this 'Open' state the defect is being addressed by the developer team and the developer team works on the defect for fixing the bug. Based on some specific reason if the developer team feels that the defect is not appropriate then it is transferred to either the 'Rejected' or 'Deferred' state.
+
+4. Fixed
+After necessary changes of codes or after fixing identified bug developer team marks the state as 'Fixed'.
+
+5. Pending Retest
+During the fixing of the defect is completed, the developer team passes the new code to the testing team for retesting. And the code/application is pending for retesting on the Tester side so the status is assigned as 'Pending Retest'.
+
+6. Retest
+At this stage, the tester starts work of retesting the defect to check whether the defect is fixed by the developer or not, and the status is marked as 'Retesting'.
+
+7. Reopen
+After 'Retesting' if the tester team found that the bug continues like previously even after the developer team has fixed the bug, then the status of the bug is again changed to 'Reopened'. Once again bug goes to the 'Open' state and goes through the life cycle again. This means it goes for Re-fixing by the developer team.
+
+8. Verified
+The tester re-tests the bug after it got fixed by the developer team and if the tester does not find any kind of defect/bug then the bug is fixed and the status assigned is 'Verified'.
+
+9. Closed
+It is the final state of the Defect Cycle, after fixing the defect by the developer team when testing found that the bug has been resolved and it does not persist then they mark the defect as a 'Closed' state.
+
+
+Another Defect States available in Defect Life Cycle
+The defect life cycle follows a structured workflow from defect identification to resolution, with each state representing a distinct phase in tracking, addressing, and closing the issue. In addition to the core states mentioned above, the following additional states may also be part of the process, providing defect resolution.
+
+1. Rejected: If the developer team rejects a defect if they feel that defect is not considered a genuine defect, and then they mark the status as ‘Rejected’. The cause of rejection may be any of these three i.e Duplicate Defect, NOT a Defect, Non-Reproducible.
+
+2. Deferred: All defects have a bad impact on developed software and also they have a level based on their impact on software. If the developer team feels that the defect that is identified is not a prime priority and it can get fixed in further updates or releases then the developer team can mark the status as 'Deferred'. This means from the current defect life cycle it will be terminated.
+
+3. Duplicate: Sometimes it may happen that the defect is repeated twice or the defect is the same as any other defect then it is marked as a 'Duplicate' state and then the defect is 'Rejected'.
+
+4. Not a Defect: If the defect has no impact or effect on other functions of the software then it is marked as 'NOT A DEFECT' state and 'Rejected'.
+
+5. Non-Reproducible: If the defect is not reproduced due to platform mismatch, data mismatch, build mismatch, or any other reason then the developer marks the defect as in a 'Non-Reproducible' state.
+
+6. Can't be Fixed: If the developer team fails to fix the defect due to Technology support, the Cost of fixing a bug is more, lack of required skill, or due to any other reasons then the developer team marks the defect as in 'Can't be fixed' state.
+
+7. Need more information: This state is very close to the 'Non-reproducible' state. But it is different from that. When the developer team fails to reproduce the defect due to the steps/document provided by the tester being insufficient or the Defect Document is not so clear to reproduce the defect then the developer team can change the status to “Need more information’. When the Tester team provides a good defect document the developer team proceeds to fix the bug.
