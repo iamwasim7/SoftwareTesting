@@ -1,0 +1,24 @@
+A Requirements Traceability Matrix (RTM) is a document used in software testing to ensure that all requirements are properly mapped with corresponding test cases. It helps track the relationship between requirements and test activities throughout the development lifecycle. RTM ensures complete test coverage and improves software quality.
+
+Maps requirements to test cases to ensure full coverage
+Helps track testing progress and requirement validation
+Reduces chances of missing or untested requirements
+
+
+#Process of RTM
+The Requirement Traceability Matrix (RTM) is created to ensure that all requirements are covered by test cases and properly validated during testing. It helps maintain complete traceability throughout the software development life cycle.
+
+Requirement Collection: All requirements are gathered from documents like SRS (Software Requirement Specification), user stories, or business requirement documents.
+Requirement Identification: Each requirement is assigned a unique ID (e.g., REQ_01, REQ_02) for easy tracking.
+Test Case Design: Test cases are written based on each requirement to ensure every feature is tested.
+Mapping Requirements to Test Cases: Each requirement is mapped with one or more corresponding test cases in the RTM.
+Review and Validation: The RTM is reviewed by QA, developers, and business analysts to ensure no requirement is missing or incorrectly mapped.
+Updates and Maintenance: Whenever requirements or test cases change, the RTM is updated to keep it accurate and up to date
+
+#Components of Requirements Traceability Matrix
+Requirement ID: It is a unique identifier assigned to each requirement to easily track and manage it throughout the testing process.
+Test Case ID: It is a unique identifier of the test cases created to validate a specific requirement.
+Test Scenario: It describes the high-level condition or situation that needs to be tested before writing detailed test cases.
+Test Execution Status: It shows the current result of test cases such as pass, fail, or not executed.
+Defect ID: It is the unique identifier of a bug linked to a failed test case for tracking and resolution purposes
+
