@@ -1,0 +1,17 @@
+A test case is a set of conditions or steps used to verify that a software application works as expected. It includes inputs, execution steps, and expected results. Test cases help ensure the system meets requirements and is free of defects.
+
+Defines what to test and how to test it
+Includes input data, steps, and expected output
+Helps in identifying bugs and ensuring quality
+Components
+These are the essential elements that define what to test, how to test it, and what results are expected.
+
+Test Case ID : Unique identifier for each test case
+Test Title/Name: Name of the project
+Test Description : Brief explanation of what is being tested
+Preconditions : Conditions that must be met before execution
+Test Steps : Step-by-step actions to perform the test
+Test Data : Input values required for testing
+Expected Result : Expected outcome after execution
+Actual Result : Actual outcome observed during testing
+Status : Pass/Fail result of the test case
