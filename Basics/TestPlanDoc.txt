@@ -1,0 +1,29 @@
+A test plan is a project-level document that defines what will be tested, how testing will be conducted, and who will perform the testing. It serves as a blueprint for the QA team.
+
+-Prepared by the Test Manager before testing begins
+-Guides and coordinates all testing activities
+-Shared with stakeholders like BAs, PMs, and the Development Team
+
+#Components and Attributes of Test Plan
+A standard test plan typically includes the following components:
+
+1.Objective: Defines testing goals and quality targets.
+2.Scope: Specifies in-scope and out-of-scope features.
+3.Test Strategy & Approach: Describes testing types, techniques, and execution flow.
+4.Assumptions & Risks: Lists assumptions and potential risks with mitigation plans.
+5.Roles & Responsibilities: Defines duties of team members involved in testing.
+6.Schedule & Estimation: Specifies timelines and effort required.
+7.Test Environment: Details hardware, software, and configurations needed.
+8.Defect Management: Explains defect tracking and reporting process.
+9.Entry & Exit Criteria: Defines conditions to start and complete testing.
+10.Test Automation Plan: Identifies scope and tools for automation.
+11.Test Deliverables: Lists outputs like test cases, reports, and logs.
+12.Templates & Standards: Ensures consistency in documentation.
+
+#Roles and Responsibilities in Test Plan
+Test Manager / Test Lead: Prepares and manages the test plan, defines strategy, scope, and ensures proper allocation of resources and timelines.
+Test Engineer / QA Tester: Executes test cases, reports defects, and verifies fixes to ensure the application meets quality standards.
+Business Analyst: Provides detailed requirements and helps design test scenarios based on business needs and user expectations.
+Developer: Fixes reported defects, supports testers in resolving technical issues, and performs unit testing before release.
+Project Manager: Monitors project progress, coordinates between teams, and ensures timely delivery within scope and schedule.
+Client / Stakeholder: Reviews and approves the test plan and validates the product during UAT to ensure it meets business requirements.
