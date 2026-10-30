@@ -1,0 +1,16 @@
+#What is Use Case?
+It is a tool to describe the requirements, we can specify what are the actions done by the user.
+Used to specify how a system will respond to given scenario.
+#Elements of Use Case Diagram:
+
+1. Actor: actor are the people or things that interacts with your system.
+2. Actions: actions of actor
+3. Output/Outcome/Goal: outcome of the actions of actor
+
+#Diff between UC vs Test scenario Vs Test Case 
+1. Use Case - Functional requirements prepared by the Business Analyst.
+2. Test scenario - What to test. Any Functionality to be tested is called Test scenario. It is derived from Use Case/ requirement specification document.
+3. Test Cases - How to test. Steps/ Procedures to verify test scenarios.
+
+# Test Suite:
+Test suite is created to group test cases of same category.
