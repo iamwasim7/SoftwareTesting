@@ -25,5 +25,6 @@ Tools & Technologies
 - JavaScript
 - Jira
 - Playwright (Learning)
+
 My Goal
 To become an Automation Software Tester and continuously improve my practical testing skills.
