@@ -11,16 +11,19 @@ What I'm Learning
 - Bug Reporting and Defect Management
 - JavaScript
 - Playwright Automation
+
 Practical Projects
 OpenCart – Manual Testing
 - Test Scenarios
 - Test Cases
 - Requirements Traceability Matrix (RTM)
 - Bug Reports
+
 Tools & Technologies
 - Git and GitHub
 - Microsoft Excel
 - JavaScript
+- Jira
 - Playwright (Learning)
 My Goal
 To become an Automation Software Tester and continuously improve my practical testing skills.
