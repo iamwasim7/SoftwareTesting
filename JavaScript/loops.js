@@ -67,3 +67,44 @@ for (let n = 1; n <= 20; n++) {
         console.log("Even Number", n)
     }
 }
+//2. Use a for loop to print numbers from 1 to 10.
+ for(let z = 1; z <= 10; z++){
+    console.log(z)
+ };
+
+//3.Multiplication Table
+//Print the multiplication table of 5.
+
+let number = 5;
+let w = 1;
+
+while (w<=10) {
+    console.log(number, "*", w, "=", number * w)
+    w++;
+};
+
+//4. While Loop
+//Use a while loop to print numbers from 10 down to 1.
+
+let g = 10;
+ while (g >= 1) {
+    console.log(g);
+    g--;
+ }
+
+ /*
+5. Break and Continue
+
+Create a for loop from 1 to 10.
+- Skip number 5 using continue.
+- Stop the loop when the number reaches 8 using break. */
+
+for (let j = 1; j <= 10; j++) {
+    if (j === 5) {
+        continue;
+    }
+    if (j === 8) {
+        break;
+    }
+    console.log(j)
+};
