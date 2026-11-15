@@ -9,10 +9,11 @@ Create a function named checkEvenOdd().
 
 function checkEvenOdd(num) {
     if (num % 2 === 0) {
-        console.log("Even")
+        return "Even";
     }else{
-        console.log("Odd")
+        return "Odd";
     }
 };
 
-checkEvenOdd(3);
+let result = checkEvenOdd(3);
+console.log(result);
