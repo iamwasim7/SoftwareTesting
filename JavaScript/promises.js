@@ -33,7 +33,12 @@ let myPromise = new Promise((resolve, reject) =>{
 
 });
 
-
+myPromise.then((resolve)=>{
+    console.log(resolve);
+});
+myPromise.catch((reject)=>{
+    console.log(reject);
+});
 
 /*Explanation:
 - new Promise() creates a Promise.
@@ -41,6 +46,33 @@ let myPromise = new Promise((resolve, reject) =>{
 - reject() indicates failure.
 - success determines which outcome occurs in this example.
 #resolve and reject are functions provided by JavaScript. */
+
+/*Exercise 1 – Create a Promise
+Create a Promise named loginPromise.
+Requirements:
+1. Create a variable loginSuccess = true.
+2. If loginSuccess is true, call resolve("Login Successful").
+3. Otherwise, call reject("Invalid Credentials").
+4. Use .then() to print the success message.
+5. Use .catch() to print the error message. */
+
+let loginPromise = new Promise((resolve, reject) =>{
+    const loginSuccess = true;
+    if(loginSuccess){
+        resolve("Login Successful");
+    }else{
+        reject("Invalid Credentials");
+    };
+});
+
+loginPromise.then((resolve)=>{
+    console.log(resolve);
+});
+
+loginPromise.catch((reject) =>{
+    console.log(reject);
+});
+
 
 
 
