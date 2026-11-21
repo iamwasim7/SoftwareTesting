@@ -60,3 +60,38 @@ try {
 } finally{
     console.log("Login validation completed")
 };
+
+//Try-Catch with Promises and Async/Await
+
+/*Practice exercise 3
+Create a Promise named loginPromise.
+
+Requirements:
+1. Create loginSuccess = false.
+2. If true, resolve with "Login Successful".
+3. Otherwise, reject with "Invalid Credentials".
+4. Create an async function named checkLogin().
+5. Use try...catch and await to handle the Promise.
+6. Print the result or error message.
+7. Add a finally block that prints "Login process completed". */
+
+let loginPromise = new Promise((resolve, reject) =>{
+    let loginSuccess = false;
+    if(loginSuccess){
+        resolve("Login Successful");
+    }else{
+        reject("Invalid Credentials");
+    }});
+
+    async function checkLogin() {
+        try {
+            let result = await loginPromise;
+            console.log(result);
+        } catch (error) {
+            console.log(error)
+        } finally{
+            console.log("Login Process Completed");
+        }
+    };
+
+checkLogin();
