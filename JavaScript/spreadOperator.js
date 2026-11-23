@@ -19,3 +19,18 @@ console.log(iplteamsXfootballclubs);
 
 const newfruits = [...fruits, "Cherry"];
 console.log(newfruits);
+
+//Spread Operator with Objects
+//We can also use spread to copy and combine objects.
+
+const user ={
+    username: "admin",
+    role: "Tester"
+};
+
+const updateUser ={
+    ...user,
+    experience: 1
+};
+
+console.log(updateUser);
