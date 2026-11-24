@@ -8,3 +8,13 @@ function addNumbers(...numbers){
 };
 
 addNumbers(10, 20, 30, 40);
+
+//2. Rest with arrays
+const testResults = ["Passed", "Failed", "Passed", "Skipped"];
+
+const [first, second, ...remaining] = testResults;
+
+console.log(first);
+console.log(second);
+console.log(remaining);
+
