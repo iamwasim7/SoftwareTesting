@@ -1,0 +1,7 @@
+{
+    "name": "Wasim",
+    "age": 21,
+    "course": "BSc IT",
+    "isLearningJavaScript": true,
+    "skills": ["HTML", "CSS", "JavaScript"]
+}
