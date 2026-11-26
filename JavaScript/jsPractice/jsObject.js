@@ -14,3 +14,18 @@ const testCase = {
 const jsonData = JSON.stringify(testCase);
 console.log(jsonData);
 console.log(typeof jsonData);
+
+//JSON.parse()
+/*Requirements:
+1. Convert jsonData into a JavaScript object using JSON.parse().
+2. Store the result in a variable named userData.
+3. Print userData.
+4. Print userData.username.
+5. Print typeof userData. */
+
+const jsonInfo = '{"username":"admin","password":"admin123","role":"Tester"}';
+const userData = JSON.parse(jsonInfo);
+
+console.log(userData.username);
+console.log(typeof userData);
+
