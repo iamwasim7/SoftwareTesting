@@ -17,7 +17,7 @@ const findLongestWord = (words) =>{
             longestWord = words[i];
         }   
     }
-    return longestWord; 
-}
+    return longestWord;
+};
 
 console.log(findLongestWord(words));
